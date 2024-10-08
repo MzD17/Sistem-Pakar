@@ -43,7 +43,7 @@ if __name__ == "__main__":
         facts = ui.get_cobBorer()
 
     # Ambil knowledge base dari file
-    file_path = "C:/Users/Mz_Device/Kuliah/Tugas Kuliah/Semester 5/CornDiseasePython/testData.txt"
+    file_path = "src/testData.txt"
     rules = get_knowledge(file_path)
     ##print(rules)
     # Terapkan forward chaining
